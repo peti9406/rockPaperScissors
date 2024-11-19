@@ -55,7 +55,7 @@ const playerScoreIncrease = function () {
 };
 const opponentScoreIncrease = function () {
   scoreOpponent += 1;
-  // opponentCurrentEl.textContent = scoreOpponent;
+  opponentCurrentEl.textContent = scoreOpponent;
 };
 
 // win condition
