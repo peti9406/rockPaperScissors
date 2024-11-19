@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link href="style.css" rel="stylesheet" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rock, Paper, Scissors!</title>
+  </head>
+  <body>
+    <header>
+      <h1 class="welcome">
+        <button class="btn-restart">Restart</button> Let's play!
+      </h1>
+      <h2 class="message">Have Fun!</h2>
+    </header>
+    <div class="left">
+      <img class="picture" id="player-sign" src="rock.png" />
+    </div>
+    <div class="right">
+      <img class="picture" id="opponent-sign" src="scissors.png" />
+    </div>
+
+    <img class="end hidden" src="win.png" />
+
+    <div class="player-score">Your score:</div>
+    <div class="player-current" type="number">0</div>
+
+    <div class="opponent-score">Opponent's score:</div>
+    <div class="opponent-current" type="number">0</div>
+
+    <div class="commands">
+      <button class="btn-rock">Rock!</button>
+      <button class="btn-paper">Paper!</button>
+      <button class="btn-scissors">Scissors!</button>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
