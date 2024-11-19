@@ -55,7 +55,7 @@ const playerScoreIncrease = function () {
 };
 const opponentScoreIncrease = function () {
   scoreOpponent += 1;
-  opponentCurrentEl.textContent = scoreOpponent;
+  // opponentCurrentEl.textContent = scoreOpponent;
 };
 
 // win condition
@@ -64,6 +64,7 @@ const isWinner = function () {
     playing = false;
     messageEl.textContent = "Player Wins! 😎";
     messageEl.style.color = "#68e168";
+    endEl.src = "win.png";
     endEl.classList.remove("hidden");
   } else if (scoreOpponent >= 3) {
     playing = false;
